@@ -1,0 +1,27 @@
+{
+  "name": "slither-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/slitherlink/index.js",
+  "types": "dist/slitherlink/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Camron2889/slither-link.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Camron2889/slither-link/issues"
+  },
+  "homepage": "https://github.com/Camron2889/slither-link#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
