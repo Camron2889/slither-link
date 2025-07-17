@@ -1,13 +1,13 @@
-export interface SlitherLinkBoardConfig {
+export interface SlitherlinkBoardConfig {
   width: number;
   height: number;
 }
 
-export class SlitherLinkBoard {
+export class SlitherlinkBoard {
   readonly width: number;
   readonly height: number;
 
-  constructor(config: SlitherLinkBoardConfig) {
+  constructor(config: SlitherlinkBoardConfig) {
     this.width = config.width;
     this.height = config.height;
   }
