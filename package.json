@@ -5,9 +5,9 @@
   "main": "dist/slitherlink/index.js",
   "types": "dist/slitherlink/index.d.ts",
   "scripts": {
+    "dev": "vite",
     "build": "tsc",
-    "dev": "tsc --watch",
-    "clean": "rm -rf dist"
+    "clean": "rimraf dist"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Camron2889/slither-link#readme",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.4"
   }
 }
